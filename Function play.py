@@ -1,4 +1,4 @@
-from class_Field import Field
+from Сlass_Field import Field
 
 def play():
     winner = ""
