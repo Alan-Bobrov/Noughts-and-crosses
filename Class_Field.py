@@ -17,7 +17,7 @@ class Field:
             print()
             print("---------------")
 
-    def move(self, bot = False):
+    def move(self, bot = False) -> None:
         if bot == True:
             while True:
                 position_X = randint(1, 3)
