@@ -1,6 +1,6 @@
 from Class_Field import Field
 
-def play():
+def play() -> None:
     winner = ""
     play_field = Field()
     print("Now you are playing noughts and crosses where you play for the 'X' and start first,")
