@@ -17,7 +17,7 @@ class Field:
             print()
             print("---------------")
 
-    def move(self, bot = False):
+    def move(self, bot = False) -> None:
         if bot == True:
             while True:
                 position_X = randint(1, 3)
@@ -82,7 +82,7 @@ class Field:
             return "draw"
         return ""
 
-def play():
+def play() -> None:
     winner = ""
     play_field = Field()
     print("Now you are playing noughts and crosses where you play for the 'X' and start first,")
